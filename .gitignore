@@ -17,6 +17,7 @@
 
 
 # Avoid local files and directories
+.gitignore
 Ressources/
 node_modules/
 package-lock.json

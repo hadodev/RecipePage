@@ -20,7 +20,6 @@
 
     /* breakouts */
     --width-mobile: 375px;
-    --width-desktop: 1440px;
 }
 
 body {
@@ -165,7 +164,7 @@ li {
     color: hsl(228, 45%, 44%);
 }
 
-@media (width <= var(--width-mobile)) {
+@media (width <= 375px) {
     .recipe {
         /* padding: 0 2rem 2rem 2rem; */
         margin: 0;
