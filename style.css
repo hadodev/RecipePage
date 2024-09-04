@@ -41,7 +41,8 @@ p {
 
 h1,
 h2,
-h3 {
+h3,
+.h3 {
     padding: 1rem 0;
 }
 
@@ -100,8 +101,9 @@ li {
         background: var(--clr-rose-50);
         border-radius: 0.5rem;
 
-        h3 {
+        .h3 {
             color: var(--clr-rose-800);
+            font-weight: 700;
         }
     }
 
